@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class YoutubeChannel implements Channel {
+
     private List<Subscriber> subscribers = new ArrayList<>();
     private String channeLName;
 
@@ -13,7 +14,9 @@ public class YoutubeChannel implements Channel {
 
     @Override
     public void notifySubscribers(String videoname) {
-        
+        for (Subscriber subscriber : subscribers) {
+            subscriber.update(channeLName, videoname);
+        }
 
     }
 
@@ -29,4 +32,7 @@ public class YoutubeChannel implements Channel {
 
     }
 
+    public void uploadVideo(String videoname){
+        
+    }
 }
