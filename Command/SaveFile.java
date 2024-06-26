@@ -1,6 +1,6 @@
 package Command;
 
-public class SaveFile implements FileOperation{
+public class SaveFile implements FileOperation {
     private TextFile textFile;
 
     public SaveFile(TextFile textFile) {
@@ -9,8 +9,8 @@ public class SaveFile implements FileOperation{
 
     @Override
     public String execute() {
-        
+
         return textFile.save();
     }
-    
+
 }
