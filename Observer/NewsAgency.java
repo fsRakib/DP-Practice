@@ -17,7 +17,7 @@ public class NewsAgency {
 
     public void setNews(String news) {
         this.news = news;
-        for(Channel channel: channels){
+        for(Channel channel: this.channels){
             channel.update(this.news);
         }
     }
