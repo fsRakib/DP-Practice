@@ -1,6 +1,6 @@
 package Command;
 
-public interface FileOperation {
+public interface TextFileOperation {
     String execute();
 
 }
