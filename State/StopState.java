@@ -6,7 +6,7 @@ import javax.naming.Context;
 public class StopState implements State {
 
     @Override
-    public void doAction(Context context) {
+    public void doAction(C context) {
         System.out.println("Player is in Start State");
         context.setState(this);
         

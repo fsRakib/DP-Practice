@@ -1,9 +1,9 @@
 package State;
 
-public class Contex {
+public class Context {
     private State state;
 
-    public Contex() {
+    public Context() {
         state = null;
     }
 

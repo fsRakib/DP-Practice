@@ -1,6 +1,5 @@
 package State;
 
-import javax.naming.Context;
 
 //concrete class
 public class StartState implements State {
