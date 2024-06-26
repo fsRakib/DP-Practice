@@ -2,9 +2,9 @@ package Chain_of_Responsibility;
 
 public class Main {
     public static void main(String[] args) {
-        PaymentHandler bank= new BankPaymentHandler();
-        PaymentHandler card= new CreditCardPaymentHandler();
-        PaymentHandler paypal= new PayPalPaymentHandler();
+        PaymentHandler bank = new BankPaymentHandler();
+        PaymentHandler card = new CreditCardPaymentHandler();
+        PaymentHandler paypal = new PayPalPaymentHandler();
 
         bank.setNext(card);
         card.setNext(paypal);
@@ -16,7 +16,7 @@ public class Main {
         bank.handlePayment(2400);
         card.handlePayment(600);
         card.handlePayment(1200);
-        paypal.handlePayment(200000000);
+        paypal.handlePayment(200);
         paypal.handlePayment(1499);
     }
 }
