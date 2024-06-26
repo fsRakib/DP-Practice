@@ -4,5 +4,5 @@ package Observer2;
 public interface Channel {
     void subscribe(Subscriber subscriber);
     void unsubscribe(Subscriber subscriber);
-    void 
+    void notifySubscribers(String videoname);
 }
