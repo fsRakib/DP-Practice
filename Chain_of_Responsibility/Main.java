@@ -16,7 +16,7 @@ public class Main {
         bank.handlePayment(2400);
         card.handlePayment(600);
         card.handlePayment(1200);
-        paypal.handlePayment(200);
+        paypal.handlePayment(200000000);
         paypal.handlePayment(1499);
     }
 }
