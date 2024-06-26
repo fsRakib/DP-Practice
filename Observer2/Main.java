@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         YoutubeChannel channel = new YoutubeChannel("fsNews");
-        YoutubeChannel channel2 = new YoutubeChannel("fsNews");
+        YoutubeChannel channel2 = new YoutubeChannel("Bangla-News");
 
         User user1 = new User("Rakib");
         User user2 = new User("Arka");
@@ -19,5 +19,13 @@ public class Main {
         System.out.println("==============================");
         channel.unsubscribe(user3);
         channel.uploadVideo("Dynamic NAT");
+        
+        System.out.println("==============================");
+
+        channel2.subscribe(user1);
+        channel2.subscribe(user2);
+        channel2.subscribe(user3);
+
+        channel2.uploadVideo("SMTP, DNS, Web Server");
     }
 }
