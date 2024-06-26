@@ -10,7 +10,7 @@ public class Main {
         card.setNext(paypal);
 
         bank.handlePayment(100);
-        bank.handlePayment(600);
+        bank.handlePayment(500);
         bank.handlePayment(1200);
         card.handlePayment(600);
         card.handlePayment(1200);
