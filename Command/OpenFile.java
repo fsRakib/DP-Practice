@@ -1,11 +1,11 @@
 package Command;
 
-public class OpenFileOperation implements FileOperation {
+public class OpenFile implements FileOperation {
 
     //Receiver
     private TextFile textFile;
 
-    public OpenFileOperation(TextFile textFile) {
+    public OpenFile(TextFile textFile) {
         this.textFile = textFile;
     }
 
