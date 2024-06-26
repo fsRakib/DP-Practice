@@ -3,6 +3,7 @@ package Command;
 import java.util.ArrayList;
 import java.util.List;
 
+//invoker class
 public class FileOperationExecutor {
     private final List<FileOperation> fileOperations = new ArrayList<>();
 
