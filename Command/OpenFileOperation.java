@@ -11,7 +11,7 @@ public class OpenFileOperation implements FileOperation {
 
     @Override
     public String execute() {
-        return null;
+        return textFile.open();
     }
 
 }

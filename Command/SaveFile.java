@@ -6,5 +6,11 @@ public class SaveFile implements FileOperation{
     public SaveFile(TextFile textFile) {
         this.textFile = textFile;
     }
+
+    @Override
+    public String execute() {
+        
+        return textFile.save();
+    }
     
 }
