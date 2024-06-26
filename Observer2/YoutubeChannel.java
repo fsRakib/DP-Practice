@@ -33,6 +33,7 @@ public class YoutubeChannel implements Channel {
     }
 
     public void uploadVideo(String videoname){
-        
+        System.out.println("A new video '"+videoname+"' uploaded to channel '"+channeLName+"' ..");
+        notifySubscribers(videoname);
     }
 }
