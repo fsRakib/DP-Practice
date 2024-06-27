@@ -1,5 +1,17 @@
 package Structural.Decorator;
 
-public class JalepanoDecorator extends PizzaDecorator{
-    
+public class JalepanoDecorator extends PizzaDecorator {
+
+    public JalepanoDecorator(Pizza pizza) {
+        super(pizza);
+    }
+
+    @Override
+    public String bake() {
+        return super.bake() + addJalepano();
+    }
+
+    public String addJalepano() {
+        return "Jalepano";
+    }
 }
