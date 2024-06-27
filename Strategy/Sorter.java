@@ -7,4 +7,8 @@ public class Sorter {
     public Sorter(SortStrategy sortStrategy) {
         this.sortStrategy = sortStrategy;
     }
+    public void SORT (int array[]){
+        sortStrategy.sort(array);
+    }
 }
+//client should communicate with sorter
