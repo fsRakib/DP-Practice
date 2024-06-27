@@ -5,7 +5,11 @@ public class User {
     private final String userId;
     private final String address;
 
-    private User() {
+    private User(UserBuilder builder) {
+        // initialize
+        this.userId = builder.userId;
+        this.username = builder.username;
+        this.address = builder.address;
     }
 
     public String getUsername() {
@@ -42,6 +46,11 @@ public class User {
         public UserBuilder setAddress(String address) {
             this.address = address;
             return this;
+        }
+
+        public User build() {
+            User user = new User(this);
+            return user;
         }
 
     }
