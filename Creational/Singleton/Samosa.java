@@ -7,10 +7,15 @@ public class Samosa {
 
     }
 
-    //lazy way
+    // lazy way
     public static Samosa getSamosa() {
         if (samosa == null) {
-            samosa = new Samosa();
+            synchronized (Samosa.class) {
+                if (samosa == null) {
+                    samosa = new Samosa();
+                }
+            }
+
         }
         return samosa;
     }
