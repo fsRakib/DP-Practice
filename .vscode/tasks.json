@@ -4,20 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Run Java",
+            "label": "echo",
             "type": "shell",
-            "command": "powershell",
-            "args": [
-                "-NoProfile",
-                "-Command",
-                "cd ${fileDirname}; javac ${fileBasename}; java ${fileBasenameNoExtension}"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": ["$javac"],
-            "detail": "Run Java file"
+            "command": "echo Hello"
         }
     ]
 }
