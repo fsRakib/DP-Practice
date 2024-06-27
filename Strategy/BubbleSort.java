@@ -15,6 +15,7 @@ public class BubbleSort implements SortStrategy {
                     arr[j + 1] = temp;
                 }
         }
+        System.out.println("Bubble sort done");
 
     }
 
