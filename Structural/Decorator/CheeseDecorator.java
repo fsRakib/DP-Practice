@@ -13,6 +13,6 @@ public class CheeseDecorator extends PizzaDecorator {
     }
 
     public String addCheese() {
-        return "Cheese";
+        return "Cheese ";
     }
 }

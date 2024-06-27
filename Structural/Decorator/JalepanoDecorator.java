@@ -12,6 +12,6 @@ public class JalepanoDecorator extends PizzaDecorator {
     }
 
     public String addJalepano() {
-        return "Jalepano";
+        return "Jalepano ";
     }
 }
