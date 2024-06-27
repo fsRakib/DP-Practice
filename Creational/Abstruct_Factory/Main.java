@@ -8,5 +8,10 @@ public class Main {
 
         Employee e2= Factory.getEmployee(new WebDevFactory());
         e2.name();
+        System.out.println("Salary: "+e2.salary());
+
+        Employee e3= Factory.getEmployee(new ManagerFactory());
+        e3.name();
+        System.out.println("Salary: "+e3.salary());
     }
 }

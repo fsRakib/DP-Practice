@@ -1,17 +1,16 @@
 package Creational.Abstruct_Factory;
 
-public class Manager implements Employee{
+public class Manager implements Employee {
 
     @Override
     public String name() {
-        
-        return "Mana";
+        System.out.println("I am a Manager");
+        return "Manager";
     }
 
     @Override
     public int salary() {
-        // TODO Auto-generated method stub
         return 100000;
     }
-    
+
 }
