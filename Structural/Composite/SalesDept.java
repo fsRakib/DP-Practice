@@ -1,11 +1,10 @@
 package Structural.Composite;
 
-//leaf component
-public class FinancialDept implements Department {
+public class SalesDept implements Department {
     private Integer id;
     private String name;
 
-    public FinancialDept(Integer id, String name) {
+    public SalesDept(Integer id, String name) {
         this.id = id;
         this.name = name;
     }
