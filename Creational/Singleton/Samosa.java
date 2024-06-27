@@ -2,10 +2,15 @@ package Creational.Singleton;
 
 public class Samosa {
     private static Samosa samosa;
-    private Samosa(){
+
+    private Samosa() {
 
     }
-    public static Samosa getSamosa(){
-        
+
+    public static Samosa getSamosa() {
+        if (samosa == null) {
+            samosa = new Samosa();
+        }
+        return samosa;
     }
 }
