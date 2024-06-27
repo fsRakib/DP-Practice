@@ -1,6 +1,11 @@
 package Creational.Builder;
 
 public class User {
+    @Override
+    public String toString() {
+        return "User [username=" + username + ", userId=" + userId + ", address=" + address + "]";
+    }
+
     private final String username;
     private final String userId;
     private final String address;
