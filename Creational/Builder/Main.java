@@ -10,11 +10,11 @@ public class Main {
         System.out.println(user1);
 
         User user2 = new User.UserBuilder()
-                .setUsername("Rakib")
-                //.setUserId("fsRakib")
+                .setUsername("Arka Das")
+                .setUserId("Arka")
                 .setAddress("Uttara, Dhaka-1230")
                 .build();
-        System.out.println(user1);
+        System.out.println(user2);
 
     }
 }
