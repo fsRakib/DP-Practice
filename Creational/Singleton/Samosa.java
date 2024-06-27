@@ -7,6 +7,7 @@ public class Samosa {
 
     }
 
+    //lazy way
     public static Samosa getSamosa() {
         if (samosa == null) {
             samosa = new Samosa();
