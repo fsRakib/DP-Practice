@@ -16,6 +16,11 @@ public class BubbleSort implements SortStrategy {
                 }
         }
         System.out.println("Bubble sort done");
+        // Print the sorted array
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
 
     }
 

@@ -7,7 +7,7 @@ public class Main {
         Sorter sorter = new Sorter();
         sorter.setSortStrategy(new BubbleSort());
         sorter.SORT(arr);
-        
+
 
         sorter.setSortStrategy(new SelectionSort());
         sorter.SORT(arr);
