@@ -1,4 +1,4 @@
-package Behavioral.State;
+package Bahavioral.State;
 
 public class Main {
     public static void main(String[] args) {

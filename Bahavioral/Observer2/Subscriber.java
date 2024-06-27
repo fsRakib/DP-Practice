@@ -1,4 +1,4 @@
-package Behavioral.Observer2;
+package Bahavioral.Observer2;
 
 //observer interface
 public interface Subscriber {

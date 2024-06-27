@@ -1,4 +1,4 @@
-package Behavioral.Observer;
+package Bahavioral.Observer;
 
 public class NewsChannel implements Channel {
     private String news;
