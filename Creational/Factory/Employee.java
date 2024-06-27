@@ -1,5 +1,6 @@
 package Creational.Factory;
 
-public class Employee {
-    int sala
+public interface Employee {
+    public int salary();
+
 }
