@@ -38,6 +38,10 @@ public class User {
         public UserBuilder() {
         }
 
+        public static UserBuilder builder(){
+            return new UserBuilder();
+        }
+
         public UserBuilder setUsername(String username) {
             this.username = username;
             return this;
