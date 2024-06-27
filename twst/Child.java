@@ -1,6 +1,6 @@
 package twst;
 
-public class Child extends P {
+public class Child extends Parent {
     private int extraData;
 
     public Child(int data, int extraData) {
