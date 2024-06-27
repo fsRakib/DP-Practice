@@ -10,7 +10,7 @@ public class ATM  implements Account{
 
     @Override
     public void withdraw() {
-        // TODO Auto-generated method stub
+        System.out.println("Money withdraw from ATM");
         
     }
     
