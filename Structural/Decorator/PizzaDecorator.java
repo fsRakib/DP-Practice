@@ -1,11 +1,14 @@
 package Structural.Decorator;
 
-public class PizzaDecorator implements Pizza{
+public class PizzaDecorator implements Pizza {
+    protected Pizza pizza;
 
     @Override
     public String bake() {
-        // TODO Auto-generated method stub
-        return null;
+        return pizza.bake();
     }
-    
+
+    public PizzaDecorator(Pizza pizza) {
+        this.pizza = pizza;
+    }
 }
