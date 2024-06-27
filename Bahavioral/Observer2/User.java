@@ -1,4 +1,4 @@
-package Behavioral.Observer2;
+package Bahavioral.Observer2;
 
 //concrete observer
 public class User implements Subscriber {

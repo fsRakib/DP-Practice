@@ -1,4 +1,4 @@
-package Behavioral.State;
+package Bahavioral.State;
 
 //concrete class
 public class StartState implements State {

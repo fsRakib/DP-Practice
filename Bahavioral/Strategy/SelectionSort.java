@@ -1,4 +1,4 @@
-package Behavioral.Strategy;
+package Bahavioral.Strategy;
 
 public class SelectionSort implements SortStrategy {
 

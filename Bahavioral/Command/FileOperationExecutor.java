@@ -1,4 +1,4 @@
-package Behavioral.Command;
+package Bahavioral.Command;
 
 import java.util.ArrayList;
 import java.util.List;

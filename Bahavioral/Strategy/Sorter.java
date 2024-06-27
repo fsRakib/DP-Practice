@@ -1,4 +1,4 @@
-package Behavioral.Strategy;
+package Bahavioral.Strategy;
 
 //wraper class...Context 
 public class Sorter {

@@ -1,4 +1,4 @@
-package Behavioral.Chain_of_Responsibility;
+package Bahavioral.Chain_of_Responsibility;
 
 public abstract class PaymentHandler {
 

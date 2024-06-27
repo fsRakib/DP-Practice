@@ -1,4 +1,4 @@
-package Behavioral.Observer;
+package Bahavioral.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

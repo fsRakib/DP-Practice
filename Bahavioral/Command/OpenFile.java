@@ -1,4 +1,4 @@
-package Behavioral.Command;
+package Bahavioral.Command;
 
 public class OpenFile implements FileOperation {
 
