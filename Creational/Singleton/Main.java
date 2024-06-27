@@ -8,7 +8,8 @@ public class Main {
         Samosa samosa2 = Samosa.getSamosa();
         System.out.println(samosa2.hashCode());
 
-        System.out.println(j);
+        System.out.println(Jalebi.getJalebi().hashCode());
+        System.out.println(Jalebi.getJalebi().hashCode());
 
     }
 }
