@@ -17,8 +17,7 @@ public class HeadDept implements Department {
 
     @Override
     public void printDeptName() {
-        // TODO Auto-generated method stub
-
+        childDepartments.forEach(Department::printDeptName);
     }
 
     public void addDept(Department department) {
