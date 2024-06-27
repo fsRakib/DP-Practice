@@ -1,4 +1,4 @@
-package Chain_of_Responsibility;
+package Bahavioral.Chain_of_Responsibility;
 
 public class PayPalPaymentHandler extends PaymentHandler {
 

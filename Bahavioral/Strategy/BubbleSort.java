@@ -1,4 +1,4 @@
-package Behavioral.Strategy;
+package Bahavioral.Strategy;
 
 public class BubbleSort implements SortStrategy {
 
