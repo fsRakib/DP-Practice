@@ -34,21 +34,26 @@ public class Computer {
         private int hdd;
 
         // Setters for the builder
-        public void setProcessor(String processor) {
+        public ComputerBuilder setProcessor(String processor) {
             this.processor = processor;
             return this;
 
         }
 
-        public void setRam(int ram) {
+        public ComputerBuilder setRam(int ram) {
             this.ram = ram;
             return this;
         }
 
-        public void setHdd(int hdd) {
+        public ComputerBuilder setHdd(int hdd) {
             this.hdd = hdd;
             return this;
         }
 
+        // build Computer object
+        public Computer build() {
+            Computer computer = new Computer();
+            computer.setProcessor(this.processor);
+        }
     }
 }
