@@ -1,10 +1,6 @@
 package Creational.Builder;
 
 public class User {
-    @Override
-    public String toString() {
-        return "User [username=" + username + ", userId=" + userId + ", address=" + address + "]";
-    }
 
     private final String username;
     private final String userId;
@@ -15,6 +11,11 @@ public class User {
         this.userId = builder.userId;
         this.username = builder.username;
         this.address = builder.address;
+    }
+
+    @Override
+    public String toString() {
+        return "User [username=" + username + ", userId=" + userId + ", address=" + address + "]";
     }
 
     public String getUsername() {
@@ -38,7 +39,7 @@ public class User {
         public UserBuilder() {
         }
 
-        public static UserBuilder builder(){
+        public static UserBuilder builder() {
             return new UserBuilder();
         }
 
