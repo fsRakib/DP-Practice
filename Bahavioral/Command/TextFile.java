@@ -1,5 +1,6 @@
 package Bahavioral.Command;
 
+//Receiver class
 public class TextFile {
     private String name;
 
