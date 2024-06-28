@@ -5,7 +5,7 @@ public class Light {
     private State state;
 
     public Light() {
-        state = new OffState();
+        state = new OffState();    // Initial state is Off
     }
 
     public void setState(State state) {
