@@ -15,6 +15,8 @@ public class Main {
         Folder mainFolder = new Folder("MainFolder");
         mainFolder.add(file3);
         mainFolder.add(subFolder);
+        mainFolder.add(file2);
+        
         System.out.println("Total size: " + mainFolder.getSize());
 
     }

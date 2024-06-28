@@ -2,6 +2,7 @@ package Structural.Composite2;
 
 // Leaf class representing a file
 public class File implements FileComponent {
+   
     private String name;
     private int size;
 
