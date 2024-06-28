@@ -17,11 +17,17 @@ public class Folder implements FileComponent {
         children.add(component);
     }
 
-    public
+    public void remove(FileComponent component) {
+        children.remove(component);
+    }
+
     @Override
     public int getSize() {
-        // TODO Auto-generated method stub
-        return 0;
+        int totalSize = 0;
+        for (FileComponent component : children) {
+            totalSize += component.getSize();
+        }
+        return totalSize;
     }
 
 }
