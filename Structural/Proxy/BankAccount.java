@@ -1,6 +1,6 @@
 package Structural.Proxy;
 
-//proxy
+// Real subject
 public class BankAccount implements Account {
     private int balance;
 
@@ -15,7 +15,5 @@ public class BankAccount implements Account {
         } else {
             System.out.println("Withdraw imPossible");
         }
-
     }
-
 }
