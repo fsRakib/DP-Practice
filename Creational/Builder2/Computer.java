@@ -7,7 +7,7 @@ public class Computer {
     private int hdd;
 
     // private constructor
-    public Computer() {
+    private Computer() {
     }
 
     public String getProcessor() {
@@ -54,6 +54,9 @@ public class Computer {
         public Computer build() {
             Computer computer = new Computer();
             computer.setProcessor(this.processor);
+            computer.setRam(this.ram);
+            computer.setHdd(this.hdd);
+            return computer;
         }
     }
 }
