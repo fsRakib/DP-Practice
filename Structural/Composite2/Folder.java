@@ -13,6 +13,11 @@ public class Folder implements FileComponent {
         this.children = new ArrayList<>();
     }
 
+    public void add(FileComponent component) {
+        children.add(component);
+    }
+
+    public
     @Override
     public int getSize() {
         // TODO Auto-generated method stub
