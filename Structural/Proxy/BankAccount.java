@@ -10,12 +10,11 @@ public class BankAccount implements Account {
 
     @Override
     public void withdraw(int amount) {
-       if(amount<=balance){
-        System.out.println("Withdraw Possible");
-       }
-       else{
-        System.out.println("Withdraw imPossible");
-       }
+        if (amount <= balance) {
+            System.out.println("Withdraw Possible");
+        } else {
+            System.out.println("Withdraw imPossible");
+        }
 
     }
 
