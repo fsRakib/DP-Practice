@@ -10,10 +10,6 @@ public class ATM implements Account {
 
     @Override
     public void withdraw(int amount) {
-        if (amount > 0) {
-            bankAccount.withdraw(amount);
-        } else {
-            System.out.println("Invalid withdrawal amount.");
-        }
+        bankAccount.withdraw(amount);
     }
 }

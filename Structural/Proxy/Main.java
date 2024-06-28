@@ -5,6 +5,5 @@ public class Main {
         ATM atm = new ATM(1000);
         atm.withdraw(100);
         atm.withdraw(2000);
-        atm.withdraw(-50);
     }
 }
