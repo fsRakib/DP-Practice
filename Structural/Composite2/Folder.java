@@ -24,8 +24,8 @@ public class Folder implements FileComponent {
     @Override
     public int getSize() {
         int totalSize = 0;
-        for (FileComponent component : children) {
-            totalSize += component.getSize();
+        for (FileComponent files : children) {
+            totalSize += files.getSize();
         }
         return totalSize;
     }
