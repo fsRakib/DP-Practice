@@ -7,12 +7,15 @@ public class Main {
         FileComponent file2 = new File("file2", 200);
         FileComponent file3 = new File("file3", 300);
 
-        //create sub folder
+        // create sub folder
         Folder subFolder = new Folder("Subfolder");
         subFolder.add(file1);
         subFolder.add(file2);
 
-        Folder mainFolder = 
+        Folder mainFolder = new Folder("MainFolder");
+        mainFolder.add(file3);
+        mainFolder.add(subFolder);
+        System.out.println("Total size: " + mainFolder.getSize());
 
     }
 }
