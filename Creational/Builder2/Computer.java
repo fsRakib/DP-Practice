@@ -27,28 +27,27 @@ public class Computer {
         return "Computer [processor=" + processor + ", ram=" + ram + ", hdd=" + hdd + "]";
     }
 
+    // Setters for the builder
+    private void setProcessor(String processor) {
+        this.processor = processor;
+
+    }
+
+    private void setRam(int ram) {
+        this.ram = ram;
+
+    }
+
+    private void setHdd(int hdd) {
+        this.hdd = hdd;
+
+    }
+
     public static class ComputerBuilder {
 
         private String processor;
         private int ram;
         private int hdd;
-
-        // Setters for the builder
-        public ComputerBuilder setProcessor(String processor) {
-            this.processor = processor;
-            return this;
-
-        }
-
-        public ComputerBuilder setRam(int ram) {
-            this.ram = ram;
-            return this;
-        }
-
-        public ComputerBuilder setHdd(int hdd) {
-            this.hdd = hdd;
-            return this;
-        }
 
         // build Computer object
         public Computer build() {
