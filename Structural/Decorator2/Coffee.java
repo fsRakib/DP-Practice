@@ -1,9 +1,6 @@
 package Structural.Decorator2;
 
-/**
- * Coffee
- */
+// Component Interface
 public interface Coffee {
-
-    String 
+    double getCost();
 }
