@@ -4,8 +4,8 @@ package Structural.Proxy;
 public class BankAccount implements Account {
     private int balance;
 
-    public BankAccount(int balance) {
-        this.balance = balance;
+    public BankAccount(int initialBalance) {
+        this.balance = initialBalance;
     }
 
     @Override
