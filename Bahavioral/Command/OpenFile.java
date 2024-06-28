@@ -1,5 +1,6 @@
 package Bahavioral.Command;
 
+//concrete class
 public class OpenFile implements FileOperation {
 
     // Receiver
