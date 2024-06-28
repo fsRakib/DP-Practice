@@ -49,6 +49,22 @@ public class Computer {
         private int ram;
         private int hdd;
 
+        // Setters for the builder
+        public ComputerBuilder setProcessor(String processor) {
+            this.processor = processor;
+            return this;
+        }
+
+        public ComputerBuilder setRam(int ram) {
+            this.ram = ram;
+            return this;
+        }
+
+        public ComputerBuilder setHdd(int hdd) {
+            this.hdd = hdd;
+            return this;
+        }
+
         // build Computer object
         public Computer build() {
             Computer computer = new Computer();
