@@ -1,4 +1,5 @@
 package Bahavioral.State2;
+
 // Concrete state
 public class OnState implements State {
 

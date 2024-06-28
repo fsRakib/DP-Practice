@@ -7,5 +7,6 @@ public class Main {
         // switching
         light.switchState();
         light.switchState();
+        light.switchState();
     }
 }
