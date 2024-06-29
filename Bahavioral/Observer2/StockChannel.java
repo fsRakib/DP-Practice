@@ -33,7 +33,7 @@ public class StockChannel implements Channel {
     }
 
     public void uploadVideo(String price) {
-        System.out.println("A new video '" + price + "' uploaded to channel '" + stockChannelName + "' ..");
+        System.out.println("New price (" + price + ")' changed to our Stock channel '" + stockChannelName + "' ..");
         notifySubscribers(price);
     }
 }
