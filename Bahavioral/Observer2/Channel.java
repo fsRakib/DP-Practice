@@ -6,5 +6,5 @@ public interface Channel {
 
     void unsubscribe(Subscriber subscriber);
 
-    void notifySubscribers(String videoname);
+    void notifySubscribers(String price);
 }

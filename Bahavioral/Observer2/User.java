@@ -9,9 +9,10 @@ public class User implements Subscriber {
     }
 
     @Override
-    public void update(String channelName, String videoName) {
-        System.out.println("Hi " + username + ", a new video (" + videoName + ") has been uploaded to " + channelName
-                + " channel.");
+    public void update(String stockChannelName, String price) {
+        System.out
+                .println("Hi " + username + ", a new price (" + price + ") has been updated to " + stockChannelName
+                        + " market.");
 
     }
 
