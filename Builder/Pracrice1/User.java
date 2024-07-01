@@ -1,4 +1,4 @@
-package Builder_Design_Pattern.Pracrice1;
+package Builder.Pracrice1;
 
 class User {
 
