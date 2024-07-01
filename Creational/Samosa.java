@@ -1,10 +1,13 @@
 public class Samosa {
-private Samosa =samosa;
+    private static Samosa samosa; //store obj private not 
+
     private Samosa() { // constructor should private
     }
 
-    public Samosa getSamosa() {
-        Samosa samosa = new Samosa();
+    public static Samosa getSamosa() { //create obj with the help of method
+        if (samosa == null) {
+            samosa = new Samosa();
+        }
         return samosa;
     }
 }
