@@ -1,8 +1,5 @@
 public class Jalebi {
-    // private static Jalebi jalebi = new Jalebi();
-    public Jalebi jalebi() {
-        return new Jalebi();
-    }
+    private static Jalebi jalebi = new Jalebi();
 
     // eager way
     public static Jalebi getJalebi() {
