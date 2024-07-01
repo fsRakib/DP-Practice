@@ -1,3 +1,5 @@
+package Creational.Singleton;
+
 public class Jalebi {
     private static Jalebi jalebi = new Jalebi();
 

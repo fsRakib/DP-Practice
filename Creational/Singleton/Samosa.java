@@ -1,3 +1,5 @@
+package Creational.Singleton;
+
 public class Samosa {
     private static Samosa samosa; // store obj private, not to access anyone from outside
 
@@ -7,7 +9,11 @@ public class Samosa {
     // lazy initialization
     public static Samosa getSamosa() { // create obj with the help of method
         if (samosa == null) {
-            samosa = new Samosa();
+            synchronized (Samosa.class) {
+                if (samosa == null) {
+                    samosa = new Samosa();
+                }
+            }
         }
         return samosa;
     }
