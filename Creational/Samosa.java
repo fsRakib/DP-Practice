@@ -4,6 +4,7 @@ public class Samosa {
     private Samosa() { // constructor should private
     }
 
+    // lazy initialization
     public static Samosa getSamosa() { // create obj with the help of method
         if (samosa == null) {
             samosa = new Samosa();
