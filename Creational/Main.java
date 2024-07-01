@@ -6,7 +6,8 @@ public class Main {
         System.out.println(samosa.hashCode());
         System.out.println(samosa2.hashCode());
 
-        System.out.println(Jalebi.);
+        System.out.println(Jalebi.getJalebi());
+        System.out.println(Jalebi.getJalebi());
 
     }                                       
 }
