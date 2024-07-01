@@ -1,4 +1,4 @@
-package Command_Design_Pattern;
+package Command;
 
 //Concrete Command
 public class LightOffComand implements Command {

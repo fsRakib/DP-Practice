@@ -1,4 +1,4 @@
-package Proxy_Design_Pattern;
+package Proxy;
 
 //Proxy 
 public class ATM implements Account {

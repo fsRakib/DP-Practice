@@ -1,4 +1,4 @@
-package Decorator_Design_Pattern.Practice1;
+package Decorator.Practice1;
 
 //Concrete Component
 public class BasePizza implements Pizza {

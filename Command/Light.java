@@ -1,4 +1,4 @@
-package Command_Design_Pattern;
+package Command;
 
 //Receiver
 public class Light {

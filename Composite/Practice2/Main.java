@@ -1,4 +1,4 @@
-package Composite_Design_Pattern.Practice2;
+package Composite.Practice2;
 
 // Client
 public class Main {

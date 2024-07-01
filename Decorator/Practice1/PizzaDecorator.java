@@ -1,4 +1,4 @@
-package Decorator_Design_Pattern.Practice1;
+package Decorator.Practice1;
 
 //Decorator
 public abstract class PizzaDecorator implements Pizza {

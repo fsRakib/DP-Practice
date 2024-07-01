@@ -1,4 +1,4 @@
-package Proxy_Design_Pattern;
+package Proxy;
 
 //Real Subject
 public class BankAccount implements Account {

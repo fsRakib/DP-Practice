@@ -1,4 +1,4 @@
-package Proxy_Design_Pattern;
+package Proxy;
 
 public class Main {
     public static void main(String[] args) {

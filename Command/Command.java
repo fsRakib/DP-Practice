@@ -1,4 +1,4 @@
-package Command_Design_Pattern;
+package Command;
 
 //Command interface
 public interface Command {

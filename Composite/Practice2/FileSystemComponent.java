@@ -1,4 +1,5 @@
-package Composite_Design_Pattern.Practice2;
+package Composite.Practice2;
+
 // Component
 abstract class FileSystemComponent {
     String name;
@@ -6,5 +7,6 @@ abstract class FileSystemComponent {
     public FileSystemComponent(String name) {
         this.name = name;
     }
+
     abstract int getSize();
 }

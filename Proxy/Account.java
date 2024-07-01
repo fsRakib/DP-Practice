@@ -1,6 +1,7 @@
-package Proxy_Design_Pattern;
+package Proxy;
 
 public interface Account {
     void withdraw(double amount);
+
     String getAccountNumber();
 }
