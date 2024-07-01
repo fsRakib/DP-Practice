@@ -1,8 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        // System.out.println(new Samosa());
-        // System.out.println(new Samosa());
-        
-    }
+        Samosa samosa = Samosa.getSamosa();
+        Samosa samosa2 = Samosa.getSamosa();
+        System.out.println(samosa.hashCode());
+        System.out.println(samosa2.hashCode());
+
+    }                                       
 }
