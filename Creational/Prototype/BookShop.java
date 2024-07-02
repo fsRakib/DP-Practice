@@ -34,7 +34,7 @@ public class BookShop implements Cloneable {
 
     @Override
     public String toString() {
-        return "BookShop [shopName=" + shopName + ", books=" + books + "]";
+        return "BookShop [shopName= " + shopName + ", books= " + books + "]";
     }
 
     @Override
