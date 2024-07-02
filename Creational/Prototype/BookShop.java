@@ -19,12 +19,6 @@ public class BookShop implements Cloneable {
         return books;
     }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        // TODO Auto-generated method stub
-        return super.clone();
-    }
-
     public void setBooks(List<Book> books) {
         this.books = books;
     }
@@ -43,4 +37,8 @@ public class BookShop implements Cloneable {
         return "BookShop [shopName=" + shopName + ", books=" + books + "]";
     }
 
+    @Override
+    protected BookShop clone() throws CloneNotSupportedException {
+       
+    }
 }

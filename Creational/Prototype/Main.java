@@ -8,7 +8,7 @@ public class Main {
         bs.getBooks().remove(1);
         System.out.println(bs);
 
-        BookShop bs2 = (BookShop)bs.clone();
+        BookShop bs2 = bs.clone();
         bs2.setShopName("Aladin.. ");
         
         System.out.println(bs2);
