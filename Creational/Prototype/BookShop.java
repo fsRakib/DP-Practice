@@ -3,7 +3,7 @@ package Creational.Prototype;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookShop {
+public class BookShop implements Cloneable {
     private String shopName;
     List<Book> books = new ArrayList<>();
 
@@ -17,6 +17,12 @@ public class BookShop {
 
     public List<Book> getBooks() {
         return books;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        // TODO Auto-generated method stub
+        return super.clone();
     }
 
     public void setBooks(List<Book> books) {
