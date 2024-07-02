@@ -39,6 +39,9 @@ public class BookShop implements Cloneable {
 
     @Override
     protected BookShop clone() throws CloneNotSupportedException {
-       
+        BookShop shop = new BookShop();
+        for(Book b: this.getBooks()){
+            shop.
+        }
     }
 }
