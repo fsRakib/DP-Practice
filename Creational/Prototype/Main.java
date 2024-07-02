@@ -5,12 +5,12 @@ public class Main {
         BookShop bs = new BookShop();
         bs.setShopName("Rokomari");
         bs.loadData();
-        bs.getBooks().remove(1);
-        System.out.println(bs);
 
         BookShop bs2 = bs.clone();
+        bs.getBooks().remove(1);
         bs2.setShopName("Aladin.. ");
-        
+
+        System.out.println(bs);
         System.out.println(bs2);
     }
 }
