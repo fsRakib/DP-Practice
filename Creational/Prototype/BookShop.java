@@ -22,7 +22,13 @@ public class BookShop {
     public void setBooks(List<Book> books) {
         this.books = books;
     }
-
+    public void loadData(){
+        for(int i=0; i<5; i++){
+            Book b= new Book();
+            b.setBookId(i);
+            b.setBookName("Book"+i);
+        }
+    }
     @Override
     public String toString() {
         return "BookShop [shopName=" + shopName + ", books=" + books + "]";
