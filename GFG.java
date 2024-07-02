@@ -3,7 +3,7 @@
 import java.util.*;
 
 class GFG {
-    static int N = 4;
+    static int N = 16;
 
     // ld is an array where its indices indicate row-col+N-1
     // (N-1) is for shifting the difference to store
