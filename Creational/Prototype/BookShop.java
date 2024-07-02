@@ -37,7 +37,7 @@ public class BookShop implements Cloneable {
         return "BookShop [shopName= " + shopName + ", books= " + books + "]";
     }
 
-    @Override
+    @Override // clone old object data to new object
     protected BookShop clone() throws CloneNotSupportedException {
         BookShop shop = new BookShop();
 
