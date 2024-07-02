@@ -41,7 +41,7 @@ public class BookShop implements Cloneable {
     protected BookShop clone() throws CloneNotSupportedException {
         BookShop shop = new BookShop();
 
-        for (Book b : this.getBooks()) {
+        for (Book b : getBooks()) {
             shop.getBooks().add(b);
         }
 
