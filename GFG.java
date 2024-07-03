@@ -1,6 +1,5 @@
 // Java program to solve N Queen Problem using backtracking
 
-import java.util.*;
 
 class GFG {
     static int N = 16;
