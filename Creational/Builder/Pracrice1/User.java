@@ -25,21 +25,18 @@ class User {
         return emailId;
     }
 
-    //---------- inner class to create obj-------------------------------
     @Override
     public String toString() {
         return this.userName + " : " + this.emailId + " : " + this.userId;
     }
 
+    // ---------- inner class to create obj-------------------------------
     static class UserBuilder {
         private String userId;
         private String userName;
         private String emailId;
 
-        public UserBuilder() {
-        }
-
-        public static UserBuilder builder(){
+        public static UserBuilder builder() {
             return new UserBuilder();
         }
 
