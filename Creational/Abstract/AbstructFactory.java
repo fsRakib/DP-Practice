@@ -1,5 +1,5 @@
 package Creational.Abstract;
 
-public class AbstructFactory {
-    
+abstract public class AbstructFactory {
+    abstract public Employee creatEmployee();
 }
