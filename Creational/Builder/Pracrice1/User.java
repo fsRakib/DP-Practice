@@ -35,7 +35,6 @@ class User {
         private String userId;
         private String userName;
         private String emailId;
-        private String emailId2=;
 
         public static UserBuilder builder() {
             return new UserBuilder();
