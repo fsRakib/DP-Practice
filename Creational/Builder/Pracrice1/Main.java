@@ -13,7 +13,7 @@ public class Main {
         User user2 = User.UserBuilder.builder()
                 .setUserId("bnz450")
                 .setUserName("Arka")
-                .setEmailId("rakibul51@student.sust.edu")
+                .setEmailId("arka@student.iubat.edu")
                 .build();
         System.out.println(user2);
     }
