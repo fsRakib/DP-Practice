@@ -1,5 +1,5 @@
 package Creational.Factory;
 
-public class Developer {
+public class Main {
     
 }
