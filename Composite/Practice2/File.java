@@ -1,7 +1,7 @@
 package Composite.Practice2;
 
 // Leaf
-public class File extends FileSystemComponent {
+public class File extends FileComponent {
     int size;
 
     public File(String name, int size) {

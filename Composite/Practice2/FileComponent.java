@@ -1,10 +1,10 @@
 package Composite.Practice2;
 
 // Component
-abstract class FileSystemComponent {
+abstract class FileComponent {
     String name;
 
-    public FileSystemComponent(String name) {
+    public FileComponent(String name) {
         this.name = name;
     }
 

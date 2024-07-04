@@ -4,21 +4,21 @@ package Composite.Practice2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Folder extends FileSystemComponent {
-    List<FileSystemComponent> components = new ArrayList<>();
+public class Folder extends FileComponent {
+    List<FileComponent> components = new ArrayList<>();
 
     public Folder(String name) {
         super(name);
     }
 
-    void add(FileSystemComponent component) {
+    void add(FileComponent component) {
         components.add(component);
     }
 
     @Override
     int getSize() {
         int totalSize = 0;
-        for (FileSystemComponent component : components) {
+        for (FileComponent component : components) {
             totalSize += component.getSize();
         }
         return totalSize;
