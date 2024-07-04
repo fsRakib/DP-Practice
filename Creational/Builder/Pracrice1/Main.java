@@ -11,7 +11,6 @@ public class Main {
         System.out.println(user);
 
         User user2 = User.UserBuilder.builder()
-                //.setEmailId("ferzine07@student.sust.edu")
                 .setUserId("bnz450")
                 .setUserName("ferZine")
                 .build();
